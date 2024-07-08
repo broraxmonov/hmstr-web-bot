@@ -209,7 +209,7 @@ const App: React.FC = () => {
                 onClick={handleCardClick}
               >
                 <div className="w-full h-full rounded-full circle-inner">
-                  <img src={creator} alt="Main Character" className="w-full h-full" />
+                  <img src={mainCharacter} alt="Main Character" className="w-full h-full" />
                 </div>
               </div>
             </div>

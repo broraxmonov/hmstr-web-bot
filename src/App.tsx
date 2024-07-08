@@ -147,7 +147,7 @@ const App: React.FC = () => {
               <div className="w-full">
                 <div className="flex justify-between">
                   <p className="text-sm">{levelNames[levelIndex]}</p>
-                  <p className="text-sm">{levelIndex + 1} <span className="text-[#95908a]">/ {levelNames.length}</span></p>
+                  <p className="text-sm">{levelIndex + 3} <span className="text-[#95908a]">/ {levelNames.length}</span></p>
                 </div>
                 <div className="flex items-center mt-1 border-2 border-[#43433b] rounded-full">
                   <div className="w-full h-2 bg-[#43433b]/[0.6] rounded-full">

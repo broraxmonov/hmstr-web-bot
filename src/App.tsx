@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter } from './images';
+import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter, creator } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -209,7 +209,7 @@ const App: React.FC = () => {
                 onClick={handleCardClick}
               >
                 <div className="w-full h-full rounded-full circle-inner">
-                  <img src={mainCharacter} alt="Main Character" className="w-full h-full" />
+                  <img src={creator} alt="Main Character" className="w-full h-full" />
                 </div>
               </div>
             </div>
